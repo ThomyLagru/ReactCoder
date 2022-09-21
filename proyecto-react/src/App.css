@@ -37,3 +37,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.footer_img{
+  width: 50px;
+}

@@ -1,18 +1,20 @@
 import React from 'react';
-import Form from './Form'
 import Secciones from './Secciones';
 
 const Navbar = () => {
     return (
       <>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">Navbar</a>
+                <img src="" alt="" />
+                <a className="navbar-brand" href="../public/index.html">Optica Vedere</a>
             <div className="collapse navbar-collapse" id="navbarColor02">
             <ul className="navbar-nav me-auto">
                 <Secciones/>
             </ul>
-                <Form busqueda="Buscar Producto"/>
+            <ul>
+                <li className='carrito'><a href="#">🛒</a></li>
+            </ul>
             </div>
             </div>
         </nav>

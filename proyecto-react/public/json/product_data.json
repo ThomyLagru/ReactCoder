@@ -6,6 +6,7 @@
     "precio" :17500,
     "tipo":"Sol",
     "modelo": "Vulk" ,
+    "stock": 20,
     "imagen":"../images/anteojo4.jpg"},
 
     {"id":2,
@@ -14,6 +15,7 @@
     "precio": 17000,
     "tipo" : "Sol",
     "modelo" : "Vulk",
+    "stock": 20,
     "imagen":"../images/anteojo3.jpg"},
 
     {"id":3,
@@ -22,6 +24,7 @@
     "precio": 16000,
     "tipo" : "Sol",
     "modelo" : "Rusty",
+    "stock": 20,
     "imagen":"../images/anteojo2.jpg"},
 
     {"id":4,
@@ -30,6 +33,7 @@
     "precio": 15000,
     "tipo": "Sol",
     "modelo": "Ossira",
+    "stock": 20,
     "imagen":"../images/anteojo1.jpg"},
 
     {"id":5,
@@ -38,6 +42,7 @@
     "precio": 15000,
     "tipo": "Sol",
     "modelo": "Ossira",
+    "stock": 20,
     "imagen":"../images/anteojo8.jpg"},
 
     {"id":6,
@@ -46,6 +51,7 @@
     "precio": 15000,
     "tipo": "Sol",
     "modelo": "Rusty",
+    "stock": 20,
     "imagen":"../images/anteojo7.jpg"},
 
     {"id":7,
@@ -54,6 +60,7 @@
     "precio": 14000,
     "tipo": "Sol",
     "modelo": "Vulk",
+    "stock": 20,
     "imagen":"../images/anteojo6.webp"},
 
     {"id":8,
@@ -62,6 +69,7 @@
     "precio": 13700,
     "tipo":  "Sol",
     "modelo": "Vulk",
+    "stock": 20,
     "imagen":"../images/anteojo5.jpg"},
 
     {"id":9,
@@ -70,6 +78,7 @@
     "precio": 25000,
     "tipo": "Leer",
     "modelo": "Ossira",
+    "stock": 20,
     "imagen":"../images/anteojo11.jpg"},
 
     {"id":10,
@@ -78,6 +87,7 @@
     "precio": 22000,
     "tipo": "Leer",
     "modelo": "Vulk",
+    "stock": 20,
     "imagen":"../images/anteojo10.jpg"},
 
     {"id":11,
@@ -86,6 +96,7 @@
     "precio": 21000,
     "tipo": "Leer",
     "modelo": "Ossira",
+    "stock": 20,
     "imagen":"../images/anteojo9.jpg"}
 
 ]

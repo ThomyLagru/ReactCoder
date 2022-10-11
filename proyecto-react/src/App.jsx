@@ -23,6 +23,7 @@ const App = () => {
             <Route path='/Carrito' element={<Carrito/>}/>
             <Route path='/Contacto' element={<Contacto/>}/>
             <Route path='/Categoria/:id' element={<Categoria/>}/>
+            <Route path='*' element={<h1>Error 404 Pagina no encontrada</h1>}/>
           </Routes>
           <Footer/>
         </BrowserRouter>

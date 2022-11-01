@@ -1,28 +1,41 @@
 import React from 'react';
 
 const Contacto = () => {
+    const datosFormulario = React.useRef()
 
-    const datosForm = React.useRef()
-    const consultarFormulario = (e) => {
+    const consultarForm = (e) => {
         e.preventDefault()
+        
+        console.log(datosFormulario)
+        const datForm = new FormData(datosFormulario.current)
+        console.log(Object.fromEntries(datForm))
+        e.target.reset()
     }
+
+
     return (
+
+       
+
         <>
-        <form onSubmit={consultarFormulario()} ref={datosForm}>
+            <div className="container">
+            <form onSubmit={consultarForm} ref={datosFormulario}>
+        
             <div className="mb-3">
-                <label htmlFor="exampleInputEmail1" className="form-label">Email</label>
-                <input type="email" className="form-control" name="email" aria-describedby="emailHelp" />
-            </div>
-            <div className="mb-3">
-                <label htmlFor="nombre" className="form-label">Nombre</label>
-                <input type="text" className="form-control" name="nombre" />
-            </div>
-            <div className="mb-3 form-check">
-                <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                <label className="form-check-label" htmlFor="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" className="btn btn-primary">Submit</button>
+            <label htmlFor="nombre" className="form-label">Nombre</label>
+            <input type="text" className="form-control" name="nombre" />
+        </div>
+        <div className="mb-3">
+        <label htmlFor="email" className="form-label">Email</label>
+            <input type="email" className="form-control" name="email"  />
+        </div>
+        <div className="mb-3">
+            <textarea name="consulta" rows={10} cols={50} defaultValue={"Escribi su consulta aqui"} />
+        </div>
+            <button type="submit" className="btn btn-primary">Enviar Consulta</button>
         </form>
+            </div>
+            
 
         </>
     );

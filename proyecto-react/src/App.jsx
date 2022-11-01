@@ -9,6 +9,9 @@ import About from './components/content/About';
 import Contacto from './components/content/Contacto';
 import './App.css'
 import Categoria from './components/content/Categoria';
+import OrdenCompra from './components/content/OrdenCompra';
+import OrdenFinalizada from './components/content/OrdenFinalizada';
+
 
 
 const App = () => {
@@ -23,7 +26,9 @@ const App = () => {
             <Route path='/Carrito' element={<Carrito/>}/>
             <Route path='/Contacto' element={<Contacto/>}/>
             <Route path='/Categoria/:id' element={<Categoria/>}/>
-            <Route path='*' element={<h1>Error 404 Pagina no encontrada</h1>}/>
+            <Route path='*' element={<h1>Error 404</h1>}/>
+            <Route path='/OrdenCompra' element={<OrdenCompra/>}/>
+            <Route path='/OrdenFinalizada' element={<OrdenFinalizada/>}/>
           </Routes>
           <Footer/>
         </BrowserRouter>

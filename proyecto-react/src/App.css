@@ -44,7 +44,7 @@
 .DatosProducto{
   width: 600px;
 }
- .ImagenCategoria{
+.ImagenCategoria{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,4 +55,12 @@
   box-sizing: border-box;
   justify-content: space-between;
   flex-wrap: wrap;
- }
+}
+
+.imagen{
+  width: 30%;
+}
+
+.imagen2{
+  width: 100%;
+}

@@ -7,7 +7,7 @@
     "tipo":"Sol",
     "modelo": "Vulk" ,
     "stock": 20,
-    "imagen":"../images/anteojo4.jpg"},
+    "imagen":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-b39c3.appspot.com/o/Imagenes%2Fanteojo4.jpg?alt=media&token=385b447e-a264-48ce-8eb2-9a08605e79c7"},
 
     {"id":2,
     "idCategoria":1,
@@ -16,7 +16,7 @@
     "tipo" : "Sol",
     "modelo" : "Vulk",
     "stock": 20,
-    "imagen":"../images/anteojo3.jpg"},
+    "imagen":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-b39c3.appspot.com/o/Imagenes%2Fanteojo3.jpg?alt=media&token=77176fa9-dd10-4b51-a946-89e043574765"},
 
     {"id":3,
     "idCategoria":1,
@@ -25,7 +25,7 @@
     "tipo" : "Sol",
     "modelo" : "Rusty",
     "stock": 20,
-    "imagen":"../images/anteojo2.jpg"},
+    "imagen":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-b39c3.appspot.com/o/Imagenes%2Fanteojo2.jpg?alt=media&token=1a8fbe76-1e93-4d4d-b46f-9d0199a0f4b9"},
 
     {"id":4,
     "idCategoria":1,
@@ -34,7 +34,7 @@
     "tipo": "Sol",
     "modelo": "Ossira",
     "stock": 20,
-    "imagen":"../images/anteojo1.jpg"},
+    "imagen":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-b39c3.appspot.com/o/Imagenes%2Fanteojo1.jpg?alt=media&token=851f555a-22ad-4e25-90df-ee3a2e92c74f"},
 
     {"id":5,
     "idCategoria":2,
@@ -43,7 +43,7 @@
     "tipo": "Sol",
     "modelo": "Ossira",
     "stock": 20,
-    "imagen":"../images/anteojo8.jpg"},
+    "imagen":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-b39c3.appspot.com/o/Imagenes%2Fanteojo8.jpg?alt=media&token=df143fc5-0f80-4e50-ba19-b145286301ed"},
 
     {"id":6,
     "idCategoria":2,
@@ -52,7 +52,7 @@
     "tipo": "Sol",
     "modelo": "Rusty",
     "stock": 20,
-    "imagen":"../images/anteojo7.jpg"},
+    "imagen":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-b39c3.appspot.com/o/Imagenes%2Fanteojo7.jpg?alt=media&token=816f4731-9106-47b9-9e39-692153f9ba33"},
 
     {"id":7,
     "idCategoria":2,
@@ -61,7 +61,7 @@
     "tipo": "Sol",
     "modelo": "Vulk",
     "stock": 20,
-    "imagen":"../images/anteojo6.webp"},
+    "imagen":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-b39c3.appspot.com/o/Imagenes%2Fanteojo6.webp?alt=media&token=86564a7b-e0e0-4f99-8a68-17d706c5b43e"},
 
     {"id":8,
     "idCategoria":2,
@@ -70,7 +70,7 @@
     "tipo":  "Sol",
     "modelo": "Vulk",
     "stock": 20,
-    "imagen":"../images/anteojo5.jpg"},
+    "imagen":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-b39c3.appspot.com/o/Imagenes%2Fanteojo5.jpg?alt=media&token=ba2b2558-34a8-4eb3-b970-6621436462ea"},
 
     {"id":9,
     "idCategoria":3,
@@ -79,7 +79,7 @@
     "tipo": "Leer",
     "modelo": "Ossira",
     "stock": 20,
-    "imagen":"../images/anteojo11.jpg"},
+    "imagen":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-b39c3.appspot.com/o/Imagenes%2Fanteojo11.jpg?alt=media&token=46544aea-0b94-460a-bd67-02037b5c3ac0"},
 
     {"id":10,
     "idCategoria":3,
@@ -88,7 +88,7 @@
     "tipo": "Leer",
     "modelo": "Vulk",
     "stock": 20,
-    "imagen":"../images/anteojo10.jpg"},
+    "imagen":"https://console.firebase.google.com/u/0/project/react-coderhouse-b39c3/storage/react-coderhouse-b39c3.appspot.com/files/~2FImagenes?hl=es"},
 
     {"id":11,
     "idCategoria":3,
@@ -97,7 +97,7 @@
     "tipo": "Leer",
     "modelo": "Ossira",
     "stock": 20,
-    "imagen":"../images/anteojo9.jpg"}
+    "imagen":"https://firebasestorage.googleapis.com/v0/b/react-coderhouse-b39c3.appspot.com/o/Imagenes%2Fanteojo9.jpg?alt=media&token=62b8932c-08f7-4f58-91c1-82b02536f427"}
 
 ]
 
